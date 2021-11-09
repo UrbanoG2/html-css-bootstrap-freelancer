@@ -1,0 +1,37 @@
+/* header rules */
+
+header {
+    width: 100%;
+    height: 450px;
+    background-color:turquoise ;
+}
+
+.header-top {
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+    padding-top: 30px;
+}
+
+.jumbo {
+    height: calc(100% - 80px);
+}
+
+.jumbo .container,
+.jumbo .row {
+    height: 100%;
+}
+
+.jumbo .col-6 {
+    background-color: orange;
+    height: 100%;
+    text-align: center;
+}
+
+
+.col-6-contained {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: yellow;
+}
