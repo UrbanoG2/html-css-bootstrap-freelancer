@@ -54,7 +54,6 @@ main {
 
 .portfolio {
     width: 100%;
-    background-color: white;
 }
 
 
@@ -71,7 +70,7 @@ h1 {
 
 .portfolio_cards img {
     height: 150px;
-    margin: 1em 0;
+    margin: 1em 3em;
     border-radius: 5px;
 }
 
@@ -112,12 +111,22 @@ h1 {
 }
 
 #send_button {
-    background-color: white;
+    background-color: turquoise;
+    color: white;
     margin-top: 1em;
-    font-weight: bold;
+    border: none;
     border-radius: 7px;
 }
 
+#send_button:hover {
+    box-shadow:5px 5px 5px  rgba(0, 0, 0, 0.473);
+    border: 1px solid white;
+}
+
+.contact_me_message {
+    margin-bottom: 5em;
+    display: inline-block;
+}
 /* /contact me */
 
 
@@ -136,6 +145,61 @@ footer {
     background-color: rgb(30 30 98);
     height: 100px;
 }
+
+.footer_top_contained {
+    margin-top: 10px;
+    text-align: center;
+    padding: 1em 0;
+
+}
+
+.footer_title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.footer_text {
+    color: white;
+}
+
+.footer_top_contained ul {
+    list-style: none;
+    
+}
+
+.footer_top_contained ul li {
+    display: inline-block;
+    margin-right: 1.5em; 
+}
+
+.footer_top_contained ul li i{
+    text-decoration: none;
+    border: 1px solid white;
+    line-height:40px;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer_top_contained ul li i:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+    font-size: 0.8em;
+    display: inline-block;
+    margin-top: 3.5em;
+}
+
+
+.green_text {
+    color: rgb(4, 197, 78);
+}
+
 
 /* /footer */
 
