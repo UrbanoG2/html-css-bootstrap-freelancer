@@ -66,12 +66,8 @@ h1 {
 .portfolio_cards {
     width: 70%;
     margin: 0 auto;
-    margin-top: 2em;
 }
 
-.portfolio_cards>.col {
-    height: 200px;
-}
 
 /* /portfolio */
 
@@ -94,3 +90,12 @@ h1 {
 }
 
 /* /about */
+
+
+/* contact me */
+
+.contact_me {
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+}
