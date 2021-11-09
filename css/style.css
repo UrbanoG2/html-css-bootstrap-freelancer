@@ -35,6 +35,11 @@ header {
     background-color: yellow;
 }
 
+#navbar_mobile {
+    display: none;
+    color: lightblue;
+}
+
 /* /header */
 
 
@@ -120,3 +125,15 @@ footer {
     height: 100px;
 }
 
+@media screen and (max-width: 768px) { 
+    .no_display_text {
+        display: none;
+    }
+
+    #navbar_mobile {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
