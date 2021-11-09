@@ -40,6 +40,10 @@ header {
 
 
 /* main */
+
+/* portfolio */
+
+
 main {
     height: 2000px;
     background-color: rgb(5, 172, 69);
@@ -47,9 +51,8 @@ main {
 }
 
 .portfolio {
-    height: 600px;
     width: 100%;
-    background-color: lightblue;
+    background-color: white;
 }
 
 
@@ -69,3 +72,25 @@ h1 {
 .portfolio_cards>.col {
     height: 200px;
 }
+
+/* /portfolio */
+
+/* about */
+
+.about {
+    width: 70%;
+    margin: 0 auto;
+    background-color: turquoise;
+}
+
+#random_button_id {
+    display: block;
+    margin: 2em auto;
+    background-color: turquoise;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* /about */
