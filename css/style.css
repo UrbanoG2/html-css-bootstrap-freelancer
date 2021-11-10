@@ -8,12 +8,14 @@ header {
 
 .header_top {
     height: 80px;
-    background-color: lightblue;
+    background-color: rgb(30 30 98);
     padding-top: 30px;
 }
 
 #start {
     text-transform: uppercase;
+    color: white;
+    font-weight: bold;
 }
 
 .jumbo {
@@ -26,9 +28,13 @@ header {
 }
 
 .jumbo .col-lg-7 {
-    background-color: orange;
     height: 100%;
     text-align: center;
+}
+
+.jumbo img {
+    height: 200px;
+    margin: 2em;
 }
 
 
@@ -36,12 +42,71 @@ header {
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    background-color: yellow;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li  {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
 }
 
 #navbar_mobile {
     display: none;
-    color: lightblue;
+}
+
+#navbar_mobile button {
+    background-color: rgb(30 30 98);
+    border: 1px solid black;
+}
+
+
+.big_text {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0;
+}
+
+.star_line {
+    height: 70px;
+}
+
+
+
+.star_line hr {
+    height: 3px;
+    color: white;
+}
+
+
+
+.star_line i {
+    font-size: 2em;
+    color: white;
+}
+
+.star_line_black hr {
+    width: 100px;
+    height: 3px;
+    color: black;
+}
+
+.star_line_black i {
+    font-size: 2em;
+}
+
+
+.jumbo_text {
+    text-transform: uppercase;
+    color: white;
 }
 
 /* /header */
@@ -61,11 +126,17 @@ main {
 }
 
 
+
 h1 {
     text-align: center;
     font-size: 3em;
     margin-bottom: 1em;
 }
+
+.portfolio_cards h1 {
+    margin-bottom: 0.5em;
+}
+
 
 .portfolio_cards {
     width: 70%;
