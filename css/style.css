@@ -12,6 +12,10 @@ header {
     padding-top: 30px;
 }
 
+#start {
+    text-transform: uppercase;
+}
+
 .jumbo {
     height: calc(100% - 80px);
 }
